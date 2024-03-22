@@ -67,6 +67,7 @@ class _MyHomePageState extends State<MyHomePage> {
               }
             },
                 child: Text('Choose Time')),
+            //Expanded(child: DatePickerWidget(title: 'Proforma/Indent/Sales Contract Date',initialDate: controller.selectedProformaContractDate, date: controller.formatDate(controller.selectedProformaContractDate.value),))
           ],
         ),
       ),
@@ -74,3 +75,4 @@ class _MyHomePageState extends State<MyHomePage> {
   }
 }
 
+//Rx<DateTime> selectedProformaContractDate = DateTime.now().obs;
